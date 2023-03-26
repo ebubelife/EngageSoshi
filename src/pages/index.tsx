@@ -88,7 +88,7 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 lg:gap-4 w-full  lg:py-3 lg:px-20 px-5 sm:px-5 grid-cols-1 sm:grid-cols-1">
   
             <div className="w-full  py-3 lg:px-10 lg:border-r-2 lg:border-white mt-5  sm:mt-5">
-              <p className="text-4xl text-yellow-300 flex font-bold">EngageSoshi        <Image src={'/images/3B9EA239-0E28-49EB-8A31-0C88A2EAA71A_4_5005_c-removebg-preview.png '} alt={''} width={40}  height={40}    />           
+              <p className="text-4xl text-yellow-300 flex font-bold">EngageSoshi        <img src={'/images/3B9EA239-0E28-49EB-8A31-0C88A2EAA71A_4_5005_c-removebg-preview.png '} alt={''} width={40}  height={40}    />           
 </p>
               <p className=" text-white mt-4">Meet Soshi, An AI that generates thoughtful comments for social media posts with AI</p>
               <p className=" text-white mt-4">Copy a text from a social media post, paste it in the text box below and we will generate a perfect comment for it</p>
