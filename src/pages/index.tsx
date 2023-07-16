@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
 import ReactDOM from 'react-dom';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import Link from 'next/link';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -157,6 +158,8 @@ export default function Home() {
         </div>
 
         </div>
+
+        <div className="w-screen p-3 bg-black"><p className="text-center text-xs text-yellow-300 cursor-pointer"><Link href="https://twitter.com/codeblooded96?t=FBcd6w_jiDOF-ulFVYnrFA&s=09">Created By @codeblooded</Link> </p></div>
        
       </main>
     </>
